@@ -1,0 +1,27 @@
+# Do not upload Terraform provider downloads.
+**/.terraform/
+
+# Terraform state may contain sensitive infrastructure data.
+**/*.tfstate
+**/*.tfstate.*
+
+# Saved plans can contain sensitive values and infrastructure details.
+**/*.tfplan
+
+# Never commit real AWS-specific Terraform inputs.
+**/terraform.tfvars
+**/*.auto.tfvars
+
+# Ignore environment files that may contain secrets.
+.env
+.env.*
+
+# Ignore AWS local configuration accidentally copied into the repository.
+**/.aws/
+
+# Ignore Terraform crash logs.
+crash.log
+crash.*.log
+
+# Ignore local macOS metadata.
+.DS_Store

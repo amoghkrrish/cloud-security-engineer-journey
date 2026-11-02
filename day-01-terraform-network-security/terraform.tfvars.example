@@ -1,0 +1,11 @@
+# Example values only.
+# These IDs are intentionally fake placeholders.
+
+# AWS deployment region.
+aws_region = "ap-south-1"
+
+# Replace locally with your own VPC ID.
+vpc_id = "vpc-REPLACE_ME"
+
+# Replace locally with your existing web security group ID.
+web_security_group_id = "sg-REPLACE_ME"
